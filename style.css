@@ -1,0 +1,41 @@
+
+body {
+	background: #0f55b5;
+}
+
+.sobre {
+	padding: 60px;
+}
+
+.d {
+	font-family: pacifico;
+	padding: 20px;
+}
+
+.Designs {
+	padding: 20px;
+}
+
+@media only screen and  (max-width: 1030px) {
+	.logo {
+	padding: 50px;
+}
+.d {
+	font-size: 50px;
+}
+.pad {
+	padding: 10px;
+}
+}
+
+@media only screen and  (min-width: 1030px) {
+	.logo {
+	padding: 100px;
+}
+.d {
+	font-size: 100px;
+}
+.pad {
+	padding: 70px;
+}
+}
